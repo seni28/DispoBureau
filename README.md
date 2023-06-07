@@ -13,3 +13,8 @@ Voici la liste des composants utilisés :
 
 
 La matrice LED utilise la blibliothèque SmartMatrix. Vous retrouverez la datasheet de la matrice dans le dossier.
+
+# Configurer plusieurs envoyeurs :
+
+Pour configurer plusieurs envoyeurs, il suffit de changer l'identifiant dans le code "sender". La ligne 44 du code permet de changer la variable "id" qui correspond à l'identifiant de l'ESP32.
+![image](https://github.com/seni28/DispoBureau/assets/95346522/ab6b3be5-764a-4428-a8e8-ae024b40d3fa)
